@@ -262,6 +262,7 @@ build_u_boot () {
 		am335x_boneblack)
 			${git} "${p_dir}/0001-am335x_evm-uEnv.txt-bootz-n-fixes.patch"
 			${git} "${p_dir}/0002-NFM-Production-eeprom-assume-device-is-BeagleBone-Bl.patch"
+			${git} "${p_dir}/0003-Autoboot-keyboard-beaglebone-fixes.patch"
 			;;
 		at91sam9x5ek_mmc)
 			${git} "${p_dir}/0001-at91sam9x5ek-uEnv.txt-bootz-n-fixes.patch"
@@ -330,6 +331,7 @@ build_u_boot () {
 		am335x_boneblack)
 			${git} "${p_dir}/0001-am335x_evm-uEnv.txt-bootz-n-fixes.patch"
 			${git} "${p_dir}/0002-NFM-Production-eeprom-assume-device-is-BeagleBone-Bl.patch"
+			${git} "${p_dir}/0003-Autoboot-keyboard-beaglebone-fixes.patch"
 			;;
 		at91sam9x5ek_mmc)
 			${git} "${p_dir}/0001-at91sam9x5ek-uEnv.txt-bootz-n-fixes.patch"
@@ -400,6 +402,7 @@ build_u_boot () {
 		am335x_boneblack)
 			${git} "${p_dir}/0001-am335x_evm-uEnv.txt-bootz-n-fixes.patch"
 			${git} "${p_dir}/0002-NFM-Production-eeprom-assume-device-is-BeagleBone-Bl.patch"
+			${git} "${p_dir}/0003-Autoboot-keyboard-beaglebone-fixes.patch"
 			;;
 		at91sam9x5ek_mmc)
 			${git} "${p_dir}/0001-at91sam9x5ek-uEnv.txt-bootz-n-fixes.patch"
@@ -463,6 +466,7 @@ build_u_boot () {
 		am335x_boneblack)
 			${git} "${p_dir}/0001-am335x_evm-uEnv.txt-bootz-n-fixes.patch"
 			${git} "${p_dir}/0002-NFM-Production-eeprom-assume-device-is-BeagleBone-Bl.patch"
+			${git} "${p_dir}/0003-Autoboot-keyboard-beaglebone-fixes.patch"
 			;;
 		at91sam9x5ek_mmc)
 			${git} "${p_dir}/0001-at91sam9x5ek-uEnv.txt-bootz-n-fixes.patch"
