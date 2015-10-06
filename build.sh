@@ -465,6 +465,7 @@ build_u_boot () {
 		case "${board}" in
 		am335x_evm)
 			${git} "${p_dir}/0001-am335x_evm-uEnv.txt-bootz-n-fixes.patch"
+			${git} "${p_dir}/0003-Autoboot-keyboard-beaglebone-fixes.patch"
 			;;
 		am335x_boneblack)
 			${git} "${p_dir}/0001-am335x_evm-uEnv.txt-bootz-n-fixes.patch"
